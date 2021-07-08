@@ -1,0 +1,244 @@
+.part1{
+    background: url('final.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 500px;
+}
+.menu{
+    width: 100%;
+    overflow: auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 70px;
+}
+.menu ul li{
+    float: left;
+    padding: auto;
+}
+
+a{
+    text-decoration: none;
+    width: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold; 
+    margin-left: 100px;
+}
+
+
+.menu ul li a:hover{
+    color:#000;
+    background: #ff0;
+    font-size: 15px;
+}
+
+.toggle-nav{
+    display: none;
+}
+
+.social{
+    float: right;
+    margin-right: 100px;
+}
+
+#button{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    color: rgb(12, 233, 12);
+    margin-left: 45%;
+    margin-top: 350px;
+    border: 1px white;
+}
+img{
+      
+      float: left;
+}
+.para{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.para ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+}
+.para ul li{
+    float: left;
+    padding: 5px;
+}
+#button1{
+   background-color: white;
+   font-size: 12px;
+   padding: 12px 28px;
+   border: 2px solid #4CAF50;
+   color: green;
+   margin-left: 100px;
+   margin-top: 0px;
+}
+p{
+    margin-left: 430px;
+    text-align: left right;
+    font-family: verdana;
+}
+#button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+#button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #button2{
+    background-color:green;
+    font-size: 20px;
+    padding: 12px 40px;
+    color:white;
+    border: none;
+    box-sizing: border-box;
+   
+ }
+ input[type=email] {
+    font-size: 12px;
+    padding: 12px 28px;
+    box-sizing: border-box;
+  }
+  .column ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+    
+}
+.column ul li{
+    padding: 5px;
+    
+}
+.row h2{
+    color: green;
+}
+.row i{
+    color: green;
+}
+.row a{
+    color: white;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 10px;
+ }
+ .part1{
+    background-image: url("final.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 500px;
+}
+
+.top-menu-left{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+    line-height: 10px;
+}
+.top-menu-right ul{
+    display: block;
+    margin-bottom: -45px;
+    list-style: none;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.top-menu-right ul li{
+    float: right;
+    padding: 5px;
+}
+
+
+.nav-left{
+    display: inline-block;
+}
+
+.nav-right{
+    float: right;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    margin-left: 340px;
+    position: relative;
+    bottom: -35px;
+}
+
+.nav-right a{
+    margin-left: 25px;
+}
+
+.part-3{
+    height: 100px;
+    background-color:#12a84e;
+    margin-top:835px ;
+    columns: 8;
+    
+}
+
+.p3-left{
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+.p3-right{
+    display: inline-table;
+    margin-top: 34px;
+    position: relative;
+    right: 220px;
+    bottom: 100px;
+    margin-right: 200px;
+}
+
+
+.days p{
+    padding-bottom:18px ;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.t{
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+
